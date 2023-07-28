@@ -1,4 +1,9 @@
 
+:root {
+    background-color: #ffffff;
+    /* background-image: linear-gradient(to bottom, #c4b5fd, #a78bfa, #8b5cf6); */
+}
+
 div,li,ul,nav,h1,p {
     border: 1px solid black;
 }
