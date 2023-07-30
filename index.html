@@ -12,26 +12,45 @@
 
 <body>
 
-    <div class="flex flex-col flex-auto container min-h-screen p-4 my-16 mx-24 w-fit bg-white
+    <div class="flex flex-col flex-auto container min-h-screen p-2 my-16 mx-24 w-fit bg-white
      text-neutral-600 rounded-xl shadow-xy-xl">
 
         <div class="flex flex-row flex-auto w-full p-2 bg-white">
-            <nav class="flex flex-wrap w-full mx-auto my-2">
-                <div class="flex inline-flex brand-jkan1 mx-auto p-4">Jkan1</div>
+            <nav class="flex flex-wrap w-full mx-auto">
+                <div class="flex inline-flex brand-jkan1 p-4 mx-auto sm:mx-0"><span class="text-orange-500">J</span>kan1</div>
                 <ul class="flex inline-flex flex-wrap w-full sm:w-fit mx-auto list-none">
-                    <li class="mx-auto p-4 w-full sm:w-40 text-center font-semibold">Home</li>
-                    <li class="mx-auto p-4 w-full sm:w-40 text-center font-semibold">Projects</li>
-                    <li class="mx-auto p-4 w-full sm:w-40 text-center font-semibold">Contact</li>
+                    <li class="mx-auto p-4 w-full sm:w-1/3 text-center font-semibold text-sm">Home</li>
+                    <li class="mx-auto p-4 w-full sm:w-1/3 text-center font-semibold text-sm">Projects</li>
+                    <li class="mx-auto p-4 w-full sm:w-1/3 text-center font-semibold text-sm">Contact</li>
                 </ul>
             </nav>
         </div>
 
-        <div class="flex container h-50 my-2">
-            <div class="rounded-full md:shrink mx-auto">
-                <img class="rounded-full w-full md:h-full max-h-48 md:w-48" src="assets/images/Jkan1.jpeg"
-                    alt="ChitChat Logo">
+        <div class="flex flex-row flex-wrap container h-50 pt-28 my-2">
+
+            <div class="flex xl:order-last w-full xl:w-fit mx-auto">
+                <div class="flex rounded-full md:shrink h-64 w-64 mx-auto my-2 xl:my-auto">
+                    <img class="rounded-full" src="assets/images/Jkan1.jpeg" alt="Profile Image">
+                </div>
             </div>
+
+            <div class="flex flex-col p-2 container w-fit mx-auto xl:ml-38 xl:mr-0 pt-6">
+                <div class="flex flex-col font-sans text-4xl max-w-fit mx-auto xl:mx-0 font-bold">
+                    <h1 class="text-left w-fit pr-4">Kanishka</h1>
+                    <h1 class="text-right">Joshi</h1>
+                </div>
+                <h3 class="flex font-sans w-fit my-4 text-lg 
+                text-neutral-600 font-bold uppercase">Programmer, Designer & Developer</h3>
+                <p class="flex font-sans font-semibold text-justify w-fit my-4 mt-8 max-w-xs">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Enim amet consectetur velit minima illum, provident fugiat alias. Veritatis minus, enim
+                    sapiente
+                    laboriosam placeat nobis neque voluptates id, iste possimus unde.
+                </p>
+            </div>
+
         </div>
+
         <div class="flex flex-col p-2 my-2 container h-fit max-w-fit mx-auto">
             <h1 class="font-sans text-2xl text-justify max-w-screen-sm font-semibold">The power behind your digital
                 ambition!</h1>
