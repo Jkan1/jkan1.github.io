@@ -1,0 +1,8 @@
+@font-face {
+    font-family: brandFont;
+    src: url('../assets/fonts/Tektur-SemiBold.ttf');
+}
+
+.brand-jkan1 {
+    font-family: brandFont;
+}
