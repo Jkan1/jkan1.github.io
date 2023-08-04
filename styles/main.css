@@ -3,9 +3,9 @@
     /* background-image: linear-gradient(to bottom, #c4b5fd, #a78bfa, #8b5cf6); */
 }
 
-div,li,ul,nav,h1,p,h3 {
+/* div,li,ul,nav,h1,p,h3 {
     border: 1px solid black;
-}
+} */
 
 .shadow-xy-xl {
     box-shadow: 0 -20px 25px -5px rgba(0, 0, 0, 0.02),
