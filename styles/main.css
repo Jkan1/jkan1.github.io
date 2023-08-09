@@ -1,6 +1,12 @@
 :root {
     background-color: #f2f0ee;
     /* background-image: linear-gradient(to bottom, #c4b5fd, #a78bfa, #8b5cf6); */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+:root::-webkit-scrollbar {
+    display: none;
 }
 
 /* To use only in dev mode */
