@@ -9,6 +9,10 @@
     display: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* To use only in dev mode */
 /* div,li,ul,nav,h1,p,h3 {
     border: 1px solid black;
